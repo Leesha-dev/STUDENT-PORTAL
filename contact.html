@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDE//HUB - Contact</title>
+    <link rel="icon" href="./media/WhatsApp Image 2026-09-21 at 1.05.06 PM.jpeg">
+    <style>
+        .hi {
+            background-color: ivory;
+        }
+        .poom {
+            color: hotpink;
+        }
+        .black {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="/">Home</a> |
+    <a href="./about.html">About</a> |
+    <a href="./contact.html">Contact</a> |
+    <a href="./courses.html">Courses</a> 
+    
+    <div class="hi">
+    <h1 class="black">MIDE//HUB Student Support Form</h1>
+
+    <form>
+
+        <h2 class="poom">Personal Information</h2>
+
+        <label>Full Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" required><br><br>
+
+        <h2 class="poom">Student Information</h2>
+
+        <label class="poom">Course:</label><br>
+        <select required>
+            <option value="">Select a Course</option>
+            <option value="frontend">Frontend Development</option>
+            <option value="backend">Backend Development</option>
+            <option value="fullstack">Full Stack Web Development</option>
+            <option value="mobile">Mobile App Development</option>
+            <option value="ai">AI Fluency</option>
+            <option value="cybersecurity">Cyber Security</option>
+            <option value="datascience">Data Science</option>
+            <option value="devops">DevOps Engineering</option>
+        </select>
+
+        <br><br>
+
+        <h2 class="poom">Support Type</h2>
+
+        <input type="radio" name="support"> Technical Issue <br>
+        <input type="radio" name="support"> Course Question <br>
+        <input type="radio" name="support"> Payment Issue <br>
+        <input type="radio" name="support"> Assignment Issue <br>
+        <input type="radio" name="support"> Other <br><br>
+
+        <h2 class="poom">Additional Services</h2>
+
+        <input type="checkbox"> Receive Course Updates <br>
+        <input type="checkbox"> Receive Job Opportunities <br>
+        <input type="checkbox"> Receive Academy Announcements <br><br>
+
+    <h2 class="poom">Message</h2>
+
+<textarea rows="6" cols="40" placeholder="Explain your issue here..."></textarea>
+
+<br><br>
+
+<h2 class="poom">Priority</h2>
+
+<select required>
+    <option value="">Select Priority</option>
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+    <option value="urgent">Urgent</option>
+</select>
+
+<br><br>
+
+<input type="submit" value="Submit Support Request">
+</form>
+</div>
+</body>
+</html>
